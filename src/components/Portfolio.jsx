@@ -16,7 +16,7 @@ const projects = [
       "Meu espaço online onde mostro minhas habilidades, projetos e o caminho que percorri como desenvolvedor front-end.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://lucas-evangelista-portfolio.vercel.app/" },
+      { icon: <FiExternalLink size={25} />, url: "https://www.lucasevangelista.site/" },
       // { icon: <FiGithub />, url: "#" },
     ],
   },
@@ -71,7 +71,7 @@ const projects = [
       "Website profissional para o advogado Dr. Julius Neto, com apresentação dos serviços jurídicos, áreas de atuação, formulário de contato e integração com WhatsApp para atendimento rápido e direto.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://energiasolar-iota.vercel.app/" },
+      { icon: <FiExternalLink size={25} />, url: "https://juliusnetoadv.vercel.app/" },
       // { icon: <FiGithub />, url: "#" },
     ],
   },

@@ -55,7 +55,7 @@ export default function Footer() {
               <FiInstagram size={24} />
             </a>
             <a
-              href="https://lucas-evangelista-portfolio.vercel.app/"
+              href="https://www.lucasevangelista.site/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"

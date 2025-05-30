@@ -1,7 +1,7 @@
 import { motion as Motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FiArrowDown } from "react-icons/fi";
-import HomeImg from "../assets/Home-img.jpg";
+import HomeImg from "../assets/Home-img1.jpg";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            Desenvolvimento front-end focado em performance, design atraente e
+            Desenvolvimento focado em performance, design atraente e
             experiência do usuário.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">

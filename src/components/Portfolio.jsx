@@ -7,27 +7,20 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
 
 const projects = [
   {
-    image: project1,
-    title: "Portfólio Pessoal - Front-End Developer",
+    image: project7,
+    title: "Site Profissional - CA Contador",
     description:
-      "Meu espaço online onde mostro minhas habilidades, projetos e o caminho que percorri como desenvolvedor front-end.",
+      "Site institucional desenvolvido para o contador Carlos Almeida, com foco em apresentação de serviços contábeis, captação de clientes e presença digital profissional.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://www.lucasevangelista.site/" },
-      // { icon: <FiGithub />, url: "#" },
-    ],
-  },
-  {
-    image: project2,
-    title: "Portfólio Acadêmico - Educação Física",
-    description:
-      "Portfólio digital desenvolvido para uma estudante de Educação Física, destacando suas conquistas acadêmicas e experiências profissionais.",
-    tags: [],
-    links: [
-      { icon: <FiExternalLink size={25} />, url: "https://amanda-portfolio-acad.vercel.app/" },
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://cacontador.vercel.app/",
+      },
       // { icon: <FiGithub />, url: "#" },
     ],
   },
@@ -38,7 +31,10 @@ const projects = [
       "Site criado para uma nutricionista, com foco na divulgação de seus serviços e captação de novos clientes.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://dr-nutricionista.vercel.app/" },
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://dr-nutricionista.vercel.app/",
+      },
       // { icon: <FiGithub />, url: "#" },
     ],
   },
@@ -49,7 +45,10 @@ const projects = [
       "Website funcional para barbearia com agendamento online e uma galeria que exibe os melhores trabalhos realizados pelos profissionais.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://lucasevangelistaa.github.io/barber/" },
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://lucasevangelistaa.github.io/barber/",
+      },
       // { icon: <FiGithub />, url: "#" },
     ],
   },
@@ -60,7 +59,10 @@ const projects = [
       "Site institucional moderno para empresa especializada em energia solar, instalações elétricas e manutenção de sistemas eletrônicos. Inclui seções de serviços, projetos, formulário de contato e integração com WhatsApp.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://energiasolar-iota.vercel.app/" },
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://energiasolar-iota.vercel.app/",
+      },
       // { icon: <FiGithub />, url: "#" },
     ],
   },
@@ -71,12 +73,42 @@ const projects = [
       "Website profissional para o advogado Dr. Julius Neto, com apresentação dos serviços jurídicos, áreas de atuação, formulário de contato e integração com WhatsApp para atendimento rápido e direto.",
     tags: [],
     links: [
-      { icon: <FiExternalLink size={25} />, url: "https://juliusnetoadv.vercel.app/" },
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://juliusnetoadv.vercel.app/",
+      },
+      // { icon: <FiGithub />, url: "#" },
+    ],
+  },
+  {
+    image: project2,
+    title: "Portfólio Acadêmico - Educação Física",
+    description:
+      "Portfólio digital desenvolvido para uma estudante de Educação Física, destacando suas conquistas acadêmicas e experiências profissionais.",
+    tags: [],
+    links: [
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://amanda-portfolio-acad.vercel.app/",
+      },
+      // { icon: <FiGithub />, url: "#" },
+    ],
+  },
+  {
+    image: project1,
+    title: "Portfólio Pessoal - Front-End Developer",
+    description:
+      "Meu espaço online onde mostro minhas habilidades, projetos e o caminho que percorri como desenvolvedor front-end.",
+    tags: [],
+    links: [
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://www.lucasevangelista.site/",
+      },
       // { icon: <FiGithub />, url: "#" },
     ],
   },
 ];
-
 
 export default function Portfolio() {
   return (
@@ -90,7 +122,7 @@ export default function Portfolio() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 flex justify-center items-center">
-            Trabalhos Concluídos <MdCheckCircle className="text-blue-900"/>
+            Trabalhos Concluídos <MdCheckCircle className="text-blue-900" />
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Alguns dos trabalhos que desenvolvi para clientes satisfeitos
@@ -141,7 +173,7 @@ export default function Portfolio() {
                       rel="noopener noreferrer"
                       className="text-gray-700 hover:text-blue-900 transition-colors"
                     >
-                      { link.icon }
+                      {link.icon}
                     </a>
                   ))}
                 </div>

@@ -20,6 +20,12 @@ const testimonials = [
     name: "João Talison",
     role: "Empreendedor",
   },
+  {
+    quote:
+      "Fiquei muito satisfeito com o site desenvolvido pelo Lucas. Ele conseguiu representar com precisão a identidade e os valores do meu trabalho. Recomendo sem ressalvas.",
+    name: "Dr. Julius Neto",
+    role: "Advogado",
+  },
 ];
 
 export default function Testimonials() {

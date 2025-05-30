@@ -5,6 +5,8 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 const projects = [
   {
@@ -48,6 +50,28 @@ const projects = [
     tags: [],
     links: [
       { icon: <FiExternalLink size={25} />, url: "https://lucasevangelistaa.github.io/barber/" },
+      // { icon: <FiGithub />, url: "#" },
+    ],
+  },
+  {
+    image: project5,
+    title: "Energia Total - Soluções Elétricas e Solares",
+    description:
+      "Site institucional moderno para empresa especializada em energia solar, instalações elétricas e manutenção de sistemas eletrônicos. Inclui seções de serviços, projetos, formulário de contato e integração com WhatsApp.",
+    tags: [],
+    links: [
+      { icon: <FiExternalLink size={25} />, url: "https://energiasolar-iota.vercel.app/" },
+      // { icon: <FiGithub />, url: "#" },
+    ],
+  },
+  {
+    image: project6,
+    title: "Dr. Julius Neto - Advocacia Especializada",
+    description:
+      "Website profissional para o advogado Dr. Julius Neto, com apresentação dos serviços jurídicos, áreas de atuação, formulário de contato e integração com WhatsApp para atendimento rápido e direto.",
+    tags: [],
+    links: [
+      { icon: <FiExternalLink size={25} />, url: "https://energiasolar-iota.vercel.app/" },
       // { icon: <FiGithub />, url: "#" },
     ],
   },

@@ -121,6 +121,13 @@ export default function Footer() {
             >
               Política de Privacidade
             </a>
+
+            <a
+              href="/contato"
+              className="text-gray-500 hover:text-white transition-colors text-sm"
+            >
+              LinkBio
+            </a>
           </Motion.div>
         </div>
       </div>

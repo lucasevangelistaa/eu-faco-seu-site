@@ -15,6 +15,9 @@ export default function Header() {
     setIsMenuOpen(false);
   };
 
+  // Itens do menu que fazem scroll
+  const scrollItems = ["Home", "Beneficios", "Portfolio", "Feedback", "FAQ", "Contatos"];
+
   return (
     <Motion.header
       initial={{ opacity: 0 }}
@@ -29,19 +32,24 @@ export default function Header() {
 
         {/* Menu Desktop */}
         <nav className="hidden md:flex space-x-8">
-          {["Home", "Beneficios", "Portfolio", "Feedback", "FAQ", "Contatos"].map(
-            (item) => (
-              <Link
-                key={item}
-                to={item}
-                smooth={true}
-                duration={500}
-                className="cursor-pointer text-gray-700 hover:text-blue-900 font-medium transition-colors"
-              >
-                {item}
-              </Link>
-            )
-          )}
+          {scrollItems.map((item) => (
+            <Link
+              key={item}
+              to={item}
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-gray-700 hover:text-blue-900 font-medium transition-colors"
+            >
+              {item}
+            </Link>
+          ))}
+
+          <a
+            href="/contato"
+            className="cursor-pointer text-gray-700 hover:text-blue-900 font-medium transition-colors"
+          >
+            LinkBio
+          </a>
         </nav>
 
         {/* Botão Mobile */}
@@ -64,20 +72,26 @@ export default function Header() {
         className="md:hidden overflow-hidden"
       >
         <div className="bg-white px-6 py-4 space-y-4 shadow-md">
-          {["Home", "Beneficios", "Portfolio", "Feedback", "FAQ", "Contatos"].map(
-            (item) => (
-              <Link
-                key={item}
-                to={item}
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-                className="block py-2 text-gray-700 hover:text-blue-900 font-medium transition-colors"
-              >
-                {item}
-              </Link>
-            )
-          )}
+          {scrollItems.map((item) => (
+            <Link
+              key={item}
+              to={item}
+              smooth={true}
+              duration={500}
+              onClick={closeMenu}
+              className="block py-2 text-gray-700 hover:text-blue-900 font-medium transition-colors"
+            >
+              {item}
+            </Link>
+          ))}
+
+          <a
+            href="/contato"
+            onClick={closeMenu}
+            className="block py-2 text-gray-700 hover:text-blue-900 font-medium transition-colors"
+          >
+            LinkBio
+          </a>
         </div>
       </Motion.div>
     </Motion.header>

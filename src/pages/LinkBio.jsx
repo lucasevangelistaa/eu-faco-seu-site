@@ -87,7 +87,7 @@ export default function Linktree() {
             transition={{ delay: 0.5 }}
           >
             <FiArrowLeft className="mr-2" size={18} />
-            Voltar para o site profissional
+            Voltar
           </Motion.a>
         </div>
       </div>

@@ -98,7 +98,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="text-gray-500 mb-4 md:mb-0"
           >
-            &copy; {currentYear} Lucas E. - Desenvolvedor Front-end. Todos os
+            &copy; {currentYear} TechLev | Criação de Sites Profissionais. Todos os
             direitos reservados.
           </Motion.p>
 

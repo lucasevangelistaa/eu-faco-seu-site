@@ -36,7 +36,7 @@ export default function Linktree() {
     >
       <div className="glass-card w-full max-w-md mx-auto p-8 sm:p-10 z-10 bg-white/10 backdrop-blur-md rounded-lg shadow-lg border border-white/20">
         <Header
-          imageUrl="https://lucas-evangelista-portfolio.vercel.app/assets/perfil-BCmArH_m.jpg"
+          imageUrl="https://www.lucasevangelista.site/assets/perfil-BCmArH_m.jpg"
           name="Lucas Evangelista"
           profession="Desenvolvedor Front-end"
         />
@@ -60,7 +60,7 @@ export default function Linktree() {
           <LinkButton
             icon={<FaGlobe size={20} />}
             text="Site Profissional"
-            url="https://eufacoseusite.vercel.app/"
+            url="https://www.techlev.site/"
           />
         </div>
 

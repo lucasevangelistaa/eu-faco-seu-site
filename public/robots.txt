@@ -1,7 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /admin/
-
-Sitemap: https://eufacoseusite.vercel.app/sitemap.xml
+Sitemap: https://techlev.site/sitemap.xml

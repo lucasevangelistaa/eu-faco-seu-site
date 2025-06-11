@@ -10,6 +10,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
+  FaLaptopCode,
 } from "react-icons/fa";
 import { FiArrowLeft } from "react-icons/fi";
 import { motion as Motion } from "framer-motion";
@@ -58,8 +59,8 @@ export default function Linktree() {
             url="https://www.lucasevangelista.site/"
           />
           <LinkButton
-            icon={<FaGlobe size={20} />}
-            text="Site Profissional"
+            icon={<FaLaptopCode size={20} />}
+            text="Minha Empresa"
             url="https://www.techlev.site/"
           />
         </div>

@@ -13,6 +13,7 @@ import {
   FaLaptopCode,
 } from "react-icons/fa";
 import { FiArrowLeft } from "react-icons/fi";
+import { MdRateReview } from "react-icons/md";
 import { motion as Motion } from "framer-motion";
 
 export default function Linktree() {
@@ -60,8 +61,13 @@ export default function Linktree() {
           />
           <LinkButton
             icon={<FaLaptopCode size={20} />}
-            text="Minha Empresa"
+            text="Seu Site Profissional Aqui!"
             url="https://www.techlev.site/"
+          />
+          <LinkButton
+            icon={<MdRateReview size={20} />}
+            text="Avalie nosso serviço"
+            url="https://g.page/r/Ceu6t499tDDfEBM/review"
           />
         </div>
 

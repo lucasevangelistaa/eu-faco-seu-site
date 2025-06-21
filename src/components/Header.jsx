@@ -2,7 +2,7 @@ import { motion as Motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useState } from "react";
-import logo from "../assets/logo-techlev01.png";
+import logo from "../assets/LogoTechLev.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function Header() {
     >
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Motion.div whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt="Logo" className="w-28" />
+          <img src={logo} alt="Logo TechLev" className="w-36" />
         </Motion.div>
 
         {/* Menu Desktop */}

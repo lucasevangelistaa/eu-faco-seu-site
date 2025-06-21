@@ -8,8 +8,23 @@ import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
 
 const projects = [
+  {
+    image: project8,
+    title: "Hamburgueria BigBurger",
+    description:
+      "Projeto desenvolvido para a hamburgueria BigBurguer, com foco em destacar o cardápio, facilitar pedidos online e fortalecer a presença digital da marca.",
+    tags: [],
+    links: [
+      {
+        icon: <FiExternalLink size={25} />,
+        url: "https://bigburguerr.vercel.app/",
+      },
+      // { icon: <FiGithub />, url: "#" },
+    ],
+  },
   {
     image: project7,
     title: "Site Profissional - CA Contador",

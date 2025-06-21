@@ -1,9 +1,10 @@
 import { motion as Motion } from "framer-motion";
-import { FiCode, FiSmartphone, FiZap, FiShield } from "react-icons/fi";
+import { FiSmartphone, FiZap, FiShield } from "react-icons/fi";
+import { FaCode } from "react-icons/fa";
 
 const benefits = [
   {
-    icon: <FiCode size={32} />,
+    icon: <FaCode size={32} />,
     title: "Código Limpo",
     description:
       "Desenvolvimento com as melhores práticas para sites rápidos e fáceis de manter",

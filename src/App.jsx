@@ -9,6 +9,7 @@ import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import LinkBio from "./pages/LinkBio";
+import PromoBanner from "./components/PromoBanner";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         element={
           <div className="min-h-screen font-sans bg-white">
             <Header />
+            <PromoBanner />
             <Home />
             <Benefits />
             <Portfolio />
